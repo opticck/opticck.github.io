@@ -1,0 +1,431 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main-section,
+.left-main-section,
+.right-main-section,
+.service,
+.service-right,
+.service-left,
+.glass,
+.glass-left,
+.glass-right,
+.lenses,
+.lenses-left,
+.lenses-right,
+.contacts {
+    height: 700px;
+		border-bottom: 2px solid #fff;
+}
+body {
+	cursor: default;
+}
+
+/*
+ header main
+*/
+.header-menu {
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    background: #fe8d43;
+		border-bottom: 2px solid white;
+		font-family: 'Roboto', sans-serif;
+}
+.header-menu li{
+    display: inline-block;
+    height: 40px;
+		text-transform: capitalize;
+		padding-top: 5px;
+}
+.header-menu a:nth-child(5),
+.header-menu a:nth-child(7),
+.footer-menu a:nth-child(5) {
+	 display: none;
+}
+.icon {
+	cursor: default;
+}
+.header-menu a {
+    color: white;
+		padding: 6px 15px;
+}
+.header-menu a:hover {
+		background: #fff;
+    color: rgb(254, 141, 67);
+		transition: .4s;
+}
+/*
+    main container
+*/
+
+.right-main-section {
+    background: #fff;
+    background-image: url(main-left.jpg);
+		background-size: cover;
+}
+.left-main-section {
+    background: #fe8d43;
+		color: #fff;
+		text-align: center;
+}
+.main-name {
+	margin: auto;
+	margin-top: 30%;
+}
+.main-name a,
+.ouraddress a {
+	color: #fff;
+	border: 2px solid #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	transition: .5s;
+}
+.main-name a:hover,
+.ouraddress a:hover {
+	background: rgba(204, 141, 67, 0.5);
+}
+.left-main-section h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 5em;
+	margin: auto;
+}
+.left-main-section h3 {
+	font-family: 'Lobster', cursive;
+	margin: auto;
+	font-size: 2em;
+	padding-left: .5em;
+	position: relative;
+	right: 40px;
+}
+.left-main-section h4,
+.footer-heading h4 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.6em;
+	padding-top: 5%;
+}
+/*
+    service
+*/
+.service {
+    background: #fff;
+}
+.service-left {
+	background: url(tab.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.service-right {
+	background: #fe8d43;
+	color: #fff;
+}
+.service-right h2,
+.service-right p {
+	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+	padding-top: 5%;
+}
+.service-right p {
+	font-size: 22px;
+	padding-top: 0;
+}
+.wifi-cup {
+	text-align: center;
+	padding-top: 10%;
+}
+/*
+    glass
+*/
+.glass-left {
+	background: rgb(254, 141, 67);
+	height: 700px;
+	padding: 0;
+}
+.glass-right {
+	height: 700px;
+	padding: 0;
+}
+.glass-right h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.6em;
+	text-align: center;
+	color: #000;
+	padding: 5px;
+}
+.glass-men {
+	background: url(man.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	height: 33.333%;
+	padding: 0;
+}
+.glass-women {
+	background: url(woman.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+	height: 33.333%;
+	padding: 0;
+}
+.glass-kids {
+	background: url(kids.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+	height: 33.333%;
+	padding: 0;
+}
+.glass-men:hover,
+.glass-women:hover,
+.glass-kids:hover {
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.glass-men:hover {
+	background: url(mansun.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	height: 33.333%;
+}
+.glass-women:hover {
+	background: url(womansun.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+	height: 33.333%;
+}
+.glass-kids:hover {
+	background: url(kidsun.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+	height: 33.333%;
+}
+.glass-mark,
+.glass-sun-mark {
+	height: 50%;
+}
+.glass-mark h2,
+.glass-sun-mark h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.6em;
+	text-align: center;
+	padding-top: 2em;
+}
+.glass-mark ul,
+.glass-sun-mark ul {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+/*
+    lenses
+*/
+.lenses-left {
+    background: #FFF;
+		height: 700px;
+		background-image: url(lens.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+}
+.lenses-right {
+	background: #fe8d43;
+	height: 700px;
+}
+.lenses-perc,
+.lenses-mark h2,
+.for-lenses-mark h2 {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.8em;
+}
+.lenses-perc {
+	padding-top: 1.5em;
+}
+.lenses-mark ul,
+.for-lenses-mark ul {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.lenses-heading {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.6em;
+}
+.for-lenses-mark,
+.lenses-mark {
+	height: 50%;
+	padding-top: 8%;
+}
+/*
+    sale
+*/
+.sale {
+    background: #B6B6B6;
+}
+/*
+    contacts
+*/
+.contacts {
+    background: #fe8d43;
+    color: #fff;
+	height: 650px;
+}
+.footer-heading {
+	width: 100%;
+	text-align: center;
+}
+.footer-heading h4 {
+	padding-top: 1%;
+}
+.contacts-maps,
+.footer-all-right {
+	padding: 0;
+}
+
+.contacts-maps {
+	text-align: right;
+}
+.footer-all-right h6 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1em;
+	background: #fe8d43;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+.ouraddress {
+	text-align: left;
+	width: 50%;
+	font-family: 'Poiret One', cursive;
+	padding-left: 20px;
+}
+.footer-menu {
+	text-align: center;
+	padding-top: 5%;
+}
+.footer-menu li {
+	display: inline;
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+  padding-right: 3px;
+}
+.ouraddress {
+	width: 100%;
+}
+.ouraddress i {
+	padding-right: 5px;
+}
+.ouraddress a {
+	font-size: 14px;
+}
+.footer-menu a {
+	color: #fff;
+	text-decoration: none;
+	transition: .5s;
+}
+.footer-menu li:hover {
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+
+/*
+		@media
+*/
+@media (max-width: 580px) {
+	.header-menu {
+		height: 40px;
+	}
+	.header-menu li {
+		height: 26px;
+	}
+	.header-menu a {
+		display: none;
+	}
+	.header-menu a:nth-child(7) {
+		 float: right;
+		 display: inline;
+	}
+	.header-menu.responsive {
+		position: relative;
+		height: auto;
+	}
+  .header-menu.responsive .icon {
+    position: absolute;
+  }
+  .header-menu.responsive li {
+    float: none;
+    display: inline;
+  }
+  .header-menu.responsive a {
+		text-decoration: none;
+    display: block;
+		text-align: left;
+  }
+	.contacts {
+		font-size: 15px;
+	}
+	.contacts-maps iframe {
+		width: 100%;
+	}
+	.footer-menu {
+		text-align: left;
+	}
+}
