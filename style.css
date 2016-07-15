@@ -227,14 +227,15 @@ body {
 	height: 33.333%;
 	padding: 0;
 }
-.glass-men:hover,
-.glass-women:hover,
-.glass-kids:hover {
+.glass-men,
+.glass-women,
+.glass-kids {
 	-webkit-transition: .5s;
 	-moz-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
 }
+
 .glass-men:hover {
 	background: url(mansun.png);
 	background-repeat: no-repeat;
@@ -256,6 +257,7 @@ body {
 	background-size: 40%;
 	height: 33.333%;
 }
+
 .glass-mark,
 .glass-sun-mark {
 	height: 50%;
@@ -279,7 +281,7 @@ body {
 .lenses-left {
     background: #FFF;
 		height: 700px;
-		background-image: url(lens.svg);
+		background-image: url(lens.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
