@@ -201,7 +201,16 @@ body {
 	font-size: 1.6em;
 	text-align: center;
 	color: #000;
-	padding: 5px;
+	padding-top: 15px;
+}
+.glass-men {
+	background: url(mansun.png);
+}
+.glass-women {
+	background: url(womansun.png);
+}
+.glass-kids {
+	background: url(kidsun.png);
 }
 .glass-men {
 	background: url(man.png);
@@ -291,13 +300,15 @@ body {
 	height: 700px;
 }
 .lenses-perc,
+.lenses-heading,
 .lenses-mark h2,
 .for-lenses-mark h2 {
 	text-align: center;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.8em;
 }
-.lenses-perc {
+.lenses-perc,
+.lenses-heading {
 	padding-top: 1.5em;
 }
 .lenses-mark ul,
@@ -307,14 +318,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .lenses-heading {
-	font-family: 'Poiret One', cursive;
-	font-size: 1.6em;
+	height: 20%;
 }
 .for-lenses-mark,
 .lenses-mark {
-	height: 50%;
-	padding-top: 8%;
+	height: 40%;
+	padding-top: 1.5em;
 }
+
 /*
     sale
 */
@@ -325,8 +336,8 @@ body {
     contacts
 */
 .contacts {
-    background: #fe8d43;
-    color: #fff;
+  background: #fe8d43;
+  color: #fff;
 	height: 650px;
 }
 .footer-heading {
@@ -357,6 +368,7 @@ body {
 	width: 50%;
 	font-family: 'Poiret One', cursive;
 	padding-left: 20px;
+	font-size: 18px;
 }
 .footer-menu {
 	text-align: center;
@@ -365,7 +377,7 @@ body {
 .footer-menu li {
 	display: inline;
 	font-family: 'Poiret One', cursive;
-	font-size: 15px;
+	font-size: 25px;
   padding-right: 3px;
 }
 .ouraddress {
@@ -423,11 +435,23 @@ body {
   }
 	.contacts {
 		font-size: 15px;
+		height: 650px;
 	}
 	.contacts-maps iframe {
 		width: 100%;
 	}
+	.ouraddress {
+		font-size: 15px;
+	}
 	.footer-menu {
 		text-align: left;
+	}
+	.footer-menu li {
+		font-size: 15px;
+	}
+}
+@media (min-width:768px) {
+	.contacts {
+		height: 550px;
 	}
 }
