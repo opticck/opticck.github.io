@@ -427,7 +427,9 @@ body {
 	border-bottom: 2px solid #fff;
 	color: #fff;
 }
-
+.img1px {
+    display: none;
+}
 
 /*
 		@media
