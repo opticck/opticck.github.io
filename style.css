@@ -183,7 +183,7 @@ body {
 .service-right p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
-	padding-top: 5%;
+	padding: 5% 5% 0 5%;
 }
 .service-right p {
 	font-size: 22px;
