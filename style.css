@@ -286,7 +286,7 @@ body {
 
 .glass-mark {
 	height: 65%;
-	padding-top: 1.1em;
+	padding-top: 10%;
 }
 .glass-sun-mark {
 	height: 35%;
@@ -305,7 +305,7 @@ body {
 	font-size: 1.1em;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	width: 85%;
+	width: 75%;
 	margin: auto;
 }
 .opticfont {
