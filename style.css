@@ -95,6 +95,9 @@ body {
 .icon {
 	cursor: default;
 }
+.hiddenlink {
+    display: none;
+}
 .header-menu a {
     color: white;
 		padding: 6px 15px;
