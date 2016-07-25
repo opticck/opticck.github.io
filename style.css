@@ -218,7 +218,7 @@ body {
 	font-size: 1.6em;
 	text-align: center;
 	color: #000;
-	padding-top: 15px;
+	padding-top: 1%;
 }
 .glass-men {
 	background: url(mansun.png);
@@ -233,7 +233,7 @@ body {
 	background: url(man.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 47%;
+	background-size: 40%;
 	height: 33.333%;
 	padding: 0;
 }
@@ -241,7 +241,7 @@ body {
 	background: url(woman.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 45%;
+	background-size: 40%;
 	height: 33.333%;
 	padding: 0;
 }
@@ -249,7 +249,7 @@ body {
 	background: url(kids.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 40%;
+	background-size: 35%;
 	height: 33.333%;
 	padding: 0;
 }
@@ -266,21 +266,21 @@ body {
 	background: url(mansun.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 47%;
+	background-size: 40%;
 	height: 33.333%;
 }
 .glass-women:hover {
 	background: url(womansun.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 45%;
+	background-size: 40%;
 	height: 33.333%;
 }
 .glass-kids:hover {
 	background: url(kidsun.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 40%;
+	background-size: 35%;
 	height: 33.333%;
 }
 
