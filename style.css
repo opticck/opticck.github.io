@@ -157,6 +157,17 @@ body {
 	font-size: 1.6em;
 	padding-top: 5%;
 }
+/* 404 page */
+.page404 p {
+    font-size: 2em;
+    font-family: 'Poiret One', cursive;
+}
+.left-main-section {
+    border-bottom: none;
+}
+.main-name.page404{
+    margin-top: 10%;
+}
 /*
     service
 */
