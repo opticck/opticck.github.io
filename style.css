@@ -80,19 +80,22 @@ body {
     text-align: center;
     height: 30px;
     background: #fe8d43;
-		border-bottom: 2px solid white;
-		font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid white;
+	font-family: 'Roboto', sans-serif;
 }
 .header-menu li{
     display: inline-block;
     height: 40px;
 		text-transform: capitalize;
-		padding-top: 5px;
+		padding-top: 6px;
 }
 .header-menu a:nth-child(5),
 .header-menu a:nth-child(7),
 .footer-menu a:nth-child(5) {
 	 display: none;
+}
+.headerBtn {
+    display: none;
 }
 .icon {
 	cursor: default;
@@ -102,7 +105,8 @@ body {
 }
 .header-menu a {
     color: white;
-		padding: 6px 15px;
+    padding: 6px 15px;
+    text-decoration: none;
 }
 .header-menu a:hover {
 		background: #fff;
@@ -448,35 +452,47 @@ body {
 		@media
 */
 @media (max-width: 580px) {
-	.header-menu {
-		height: 40px;
+    header {
+       background: rgb(254, 141, 67);
+    }
+    .headerBtn {
+        display: block;
+        text-align: right;
+        padding: 5px 10px ;
+        margin: auto;
+        border-bottom: 2px solid #fff;
+    }
+    .header-menu {
+		height: 212px;
 	}
-	.header-menu li {
-		height: 26px;
+    .header-menu {
+		 display: none;   
 	}
-	.header-menu a {
-		display: none;
-	}
-	.header-menu a:nth-child(7) {
-		 float: right;
-		 display: inline;
-	}
-	.header-menu.responsive {
-		position: relative;
-		height: auto;
-	}
-  .header-menu.responsive .icon {
-    position: absolute;
-  }
-  .header-menu.responsive li {
-    float: none;
-    display: inline;
-  }
-  .header-menu.responsive a {
-		text-decoration: none;
-    display: block;
-		text-align: left;
-  }
+    .header-menu a{
+        display: block;
+    }
+    .header-menu li{
+        display: inline-block;
+        height: 30px;
+        padding-top: 6px;
+    }
+    .header-menu a {
+        color: white;
+        padding: 6px 15px;
+        text-decoration: none;
+    }
+    .header-menu a:hover {
+            background: #fff;
+        color: rgb(254, 141, 67);
+            transition: .4s;
+    }
+    .icon {
+        color: #fff;
+    }
+    .icon:hover {
+        color: #fff;
+        text-decoration: none;
+    }
 	.service-right,
 	.glass-left {
 		height: 800px;
